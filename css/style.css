@@ -1,0 +1,106 @@
+/*font face
+@font-face{
+	src:url(../fonts/ubuntu/Ubuntu-Light.ttf);
+	font-family: Ubuntu-light;
+}
+@font-face{
+	src:url(../fonts/inconsolata/static/Inconsolata-Regular.ttf);
+	font-family: Inconsolata-Regular;
+}
+*/
+/*cdn fonts
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+*/
+/*download fonts 
+h2{
+	font-family: Ubuntu-light;
+	font-weight: 300;
+
+}
+h4{
+	font-family: Inconsolata-Regular;
+	font-weight: 400;
+}
+*/
+/*common code */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display' serif; 
+	font-size:16px;
+	font-weight:400;
+	color:#626262; 
+}
+header{
+	padding: 20px 0;
+
+}
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+
+
+}
+.logo{
+	width: 15%;
+	float: left;
+    
+
+
+}
+.logo a{
+
+
+}
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	width: 77%;
+	float: right;
+	
+
+
+}
+.menu ul{
+	float: right;
+
+}
+
+.menu ul li{
+	float: left;
+	list-style: none;
+
+	
+
+
+	
+
+
+}
+.menu ul li a{
+	margin: 0 60px;
+	padding: 5px 3px;
+	display: inline-block;
+	color:#626262; 
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	text-decoration:  none;
+	border-bottom: 1px solid transparent;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+} 
+.menu ul li a:hover{
+	border-bottom: 1px solid #222222;
+} 
